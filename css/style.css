@@ -95,7 +95,7 @@ a {
 }
 .showcase-img {
   flex: 0 1 25%;
-  height: 60vh;
+  /* height: 60vh; */
 }
 .showcase-img img {
   display: block;
@@ -158,40 +158,37 @@ a {
   height: 50%;
   display: flex;
 }
-.discover-img1 {
+.discover-bgimg {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
+}
+.discover-img1 {
   background: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/global/general_image/spoon_640x640-1390623-jpg.jpg.ulenscale.320x200.jpg")
     no-repeat center center/cover;
 }
-.discover-text1 {
+.discover-link {
+  display: block;
   background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
+  position: relative;
+}
+.discover-text {
   color: white;
   font-family: "Pacifico", cursive;
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 50%;
   font-weight: 900;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 .discover-img2 {
-  flex: 0 0 auto;
-  height: 100%;
-  width: 50%;
   background: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/global/general_image/ice_cream/out_of_home_ice_cream/walls_c52_relatedarticles_girls-1052897-jpg.jpg.ulenscale.320x200.jpg")
     no-repeat center center/cover;
 }
-.discover-text2 {
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 100%;
-  color: white;
-  font-family: "Pacifico", cursive;
-  font-size: 1.5rem;
-  text-align: center;
-  padding-top: 50%;
-  font-weight: 900;
-}
+
 .discover-btn {
   flex: 0 0 auto;
   color: red;
